@@ -2,6 +2,9 @@
 body{
     font-family: 'B612', sans-serif;
 }
+.carousel-item img{
+    height: 18rem;
+}
 .card-body-bg{
     background-color: rgb(248, 222, 222);
 }
@@ -10,4 +13,25 @@ body{
 }
 .color{
     color: rgb(107, 168, 226);
+}
+@media  screen and (min-width:577px) and (max-width:768px) {
+    .carousel-item h1{
+        font-size: 1.3rem !important;
+    }
+    .carousel-item p{
+        font-size: 0.8rem !important;
+    }
+}
+@media screen and (max-width:576px) {
+    .carousel-item h1{
+        font-size: 1rem !important;
+    }
+    .carousel-item p{
+        font-size: 0.8rem !important;
+    }
+    .carousel-item button{
+        font-size: 0.5rem !important;
+        padding: 3px 5px;
+        margin: 0;
+    }
 }
