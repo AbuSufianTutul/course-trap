@@ -3,14 +3,13 @@ body{
     font-family: 'B612', sans-serif;
 }
 .carousel-item img{
-    height: 18rem;
+    height: 32rem;
+    width: 100%;
 }
 .card-body-bg{
     background-color: rgb(248, 222, 222);
 }
-.width{
-    width: 95%;
-}
+
 .color{
     color: rgb(107, 168, 226);
 }
@@ -21,17 +20,32 @@ body{
     .carousel-item p{
         font-size: 0.8rem !important;
     }
+    .join-now h1, .join-now p{
+        text-align: center;
+    }
 }
 @media screen and (max-width:576px) {
     .carousel-item h1{
         font-size: 1rem !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
     .carousel-item p{
         font-size: 0.8rem !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
     .carousel-item button{
         font-size: 0.5rem !important;
         padding: 3px 5px;
         margin: 0;
+    }
+    .carousel-item{
+        padding-bottom: 0 !important;
+    }
+}
+@media screen and (min-width:767px) and (max-width:992px){
+    .join-now h1, .join-now p{
+        text-align: center;
     }
 }
